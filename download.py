@@ -17,4 +17,4 @@ def crawl_and_rename(keywords, output_dir, prefix, max_images=50):
         new_name = f"{prefix}_{i+1:03d}{ext}"
         os.rename(os.path.join(output_dir, filename), os.path.join(output_dir, new_name))
 
-crawl_and_rename(["ID", "Student ID", "Government ID", "ID example"], "DataSet/ID", "ID_CARD_TRAIN")
+crawl_and_rename(["ID", "Student ID", "Government ID", "ID example"], "DataSet/ID", "ID_CARD_TRAIN", 30)
