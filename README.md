@@ -1,1 +1,3 @@
 # StructoAI
+
+# Project cancelled
